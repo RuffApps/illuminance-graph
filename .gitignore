@@ -1,0 +1,7 @@
+/ruff_modules/
+/node_modules/
+
+/.rap/
+
+/ruff_box.json
+/layout.json
