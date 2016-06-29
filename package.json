@@ -1,12 +1,12 @@
 {
-  "name": "ruff-cross-platform-demo",
+  "name": "illuminance-graph",
   "version": "0.1.0",
   "description": "",
   "author": "",
   "main": "src/index.js",
   "ruff": {
     "dependencies": {
-      "home": "^0.1.2",
+      "home": "^0.1.3",
       "lcd1602-pcf8574a-hd44780": "^0.2.1",
       "gy-30": "^3.0.0"
     },
