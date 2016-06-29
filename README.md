@@ -57,8 +57,10 @@ Please copy the IP address of your device and we'll use that to access web graph
 
 ```sh
 rap scan
-rap deploy -s
+rap deploy -s --source
 ```
+
+> Option `--source` will prevent from rap pre-compiling JavaScript files as we have browser side JavaScript in `static` folder.
 
 If everything goes fine, you should be seeing the LCD updating current illuminance value and a realtime graph by its side.
 Now open an browser and visit `http://<device-ip>/` to view the web version.
